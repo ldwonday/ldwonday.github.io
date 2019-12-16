@@ -76,7 +76,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/logo.svg" alt="烟雨楼台" height="28">
+                <img src="/assets/images/logo.png" alt="烟雨楼台" height="28">
             
             </a>
         </div>
@@ -104,7 +104,7 @@
             <div class="navbar-end">
                 
                     
-                    <a class="navbar-item" target="_blank" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus">
+                    <a class="navbar-item" target="_blank" title="GitHub" href="https://github.com/ldwonday">
                         
                         <i class="fab fa-github"></i>
                         
@@ -156,7 +156,7 @@
 <h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><blockquote>
 <p>语法：AddressParse(address[, [option|0|1]])<br>import</p>
 </blockquote>
-<figure class="highlight js hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-keyword">import</span> AddressParse <span class="hljs-keyword">from</span> <span class="hljs-string">'./dist/zh-address-parse.min.js'</span></span><br><span class="line"><span class="hljs-comment">// options为可选参数，不传默认使用正则查找</span></span><br><span class="line"><span class="hljs-keyword">const</span> options = &#123;</span><br><span class="line">  type: <span class="hljs-number">0</span>, <span class="hljs-comment">// 哪种方式解析，0：正则，1：树查找</span></span><br><span class="line">  textFilter: [], <span class="hljs-comment">// 预清洗的字段</span></span><br><span class="line">  nameMaxLength: <span class="hljs-number">4</span>, <span class="hljs-comment">// 查找最大的中文名字长度</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="hljs-comment">// type参数0表示使用正则解析，1表示采用树查找, textFilter地址预清洗过滤字段。</span></span><br><span class="line"><span class="hljs-keyword">const</span> parseResult = AddressParse(<span class="hljs-string">'your address'</span>, options)</span><br><span class="line"><span class="hljs-comment">// The parseResult is an object contain &#123; province: '', name: '', city: '', area: '', detail: '', phone: '', postalCode: '' &#125;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-keyword">import</span> AddressParse <span class="hljs-keyword">from</span> <span class="hljs-string">'./dist/zh-address-parse.min.js'</span></span><br><span class="line"><span class="hljs-comment">// options为可选参数，不传默认使用正则查找</span></span><br><span class="line"><span class="hljs-keyword">const</span> options = &#123;</span><br><span class="line">  type: <span class="hljs-number">0</span>, <span class="hljs-comment">// 哪种方式解析，0：正则，1：树查找</span></span><br><span class="line">  textFilter: [], <span class="hljs-comment">// 预清洗的字段</span></span><br><span class="line">  nameMaxLength: <span class="hljs-number">4</span>, <span class="hljs-comment">// 查找最大的中文名字长度</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="hljs-comment">// type参数0表示使用正则解析，1表示采用树查找, textFilter地址预清洗过滤字段。</span></span><br><span class="line"><span class="hljs-keyword">const</span> parseResult = AddressParse(<span class="hljs-string">'your address'</span>, options)</span><br><span class="line"><span class="hljs-comment">// The parseResult is an object contain &#123; province: '', name: '', city: '', area: '', detail: '', phone: '', postalCode: '' &#125;</span></span><br></pre></td></tr></table></figure>
         </div>
         
         
@@ -204,7 +204,7 @@
                     
                     
                     <p class="is-size-6 is-block">
-                        前端之巅
+                        南方烟雨醉他乡，北国冰雪恨离愁
                     </p>
                     
                     
@@ -265,7 +265,7 @@
         <div class="level is-mobile">
             
             <a class="level-item button is-white is-marginless" target="_blank"
-                title="Github" href="https://github.com/ppoffice">
+                title="Github" href="https://github.com">
                 
                 <i class="fab fa-github"></i>
                 
@@ -285,62 +285,12 @@
                 
             </a>
             
-            <a class="level-item button is-white is-marginless" target="_blank"
-                title="Dribbble" href="https://dribbble.com">
-                
-                <i class="fab fa-dribbble"></i>
-                
-            </a>
-            
-            <a class="level-item button is-white is-marginless" target="_blank"
-                title="RSS" href="/">
-                
-                <i class="fas fa-rss"></i>
-                
-            </a>
-            
         </div>
         
     </div>
 </div>
     
         
-    
-        <div class="card widget">
-    <div class="card-content">
-        <div class="menu">
-        <h3 class="menu-label">
-            链接
-        </h3>
-        <ul class="menu-list">
-        
-            <li>
-                <a class="level is-mobile" href="https://hexo.io" target="_blank">
-                    <span class="level-left">
-                        <span class="level-item">Hexo</span>
-                    </span>
-                    <span class="level-right">
-                        <span class="level-item tag">hexo.io</span>
-                    </span>
-                </a>
-            </li>
-        
-            <li>
-                <a class="level is-mobile" href="https://github.com/ppoffice" target="_blank">
-                    <span class="level-left">
-                        <span class="level-item">PPOffice</span>
-                    </span>
-                    <span class="level-right">
-                        <span class="level-item tag">github.com</span>
-                    </span>
-                </a>
-            </li>
-        
-        </ul>
-        </div>
-    </div>
-</div>
-
     
         
 <div class="card widget">
@@ -535,13 +485,13 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/logo.svg" alt="烟雨楼台" height="28">
+                    <img src="/assets/images/logo.png" alt="烟雨楼台" height="28">
                 
                 </a>
                 <p class="is-size-7">
                 &copy; 2019 烟雨楼台&nbsp;
-                Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & <a
-                        href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus</a>
+                <!--Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & <a
+                        href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus</a>-->
                 
                 </p>
             </div>
@@ -551,6 +501,7 @@
         </div>
     </div>
 </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script>
 <script>moment.locale("zh-CN");</script>
