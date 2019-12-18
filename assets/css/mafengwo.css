@@ -4751,6 +4751,10 @@ ul.result li.not_found:hover {
     text-decoration: none
 }
 
+.add_pic a img{
+    height: auto !important;
+}
+
 .ap_thumb li .close_ico,.add_pic .close_ico,.add_video .close_ico,.add_pic .span_quote,.add_list .turn {
     visibility: hidden
 }
