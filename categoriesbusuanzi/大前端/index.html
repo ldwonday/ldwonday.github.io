@@ -216,7 +216,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    2 分钟 读完 (大约 251 个字)
+                    2 分钟 读完 (大约 274 个字)
                 </span>
                 
                 
@@ -229,11 +229,10 @@
             
         </h1>
         <div class="content">
-            <h1 id="China’s-delivery-address-parse"><a href="#China’s-delivery-address-parse" class="headerlink" title="China’s delivery address parse"></a>China’s delivery address parse</h1><h2 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h2><p><a href="https://ldwonday.github.io/zh-address-parse/" target="_blank" rel="noopener">Test page</a></p>
-<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><blockquote>
-<p>语法：AddressParse(address[, [option|0|1]])<br>import</p>
+            <h1 id="China’s-delivery-address-parse"><a href="#China’s-delivery-address-parse" class="headerlink" title="China’s delivery address parse"></a>China’s delivery address parse</h1><h2 id="Preview"><a href="#Preview" class="headerlink" title="Preview"></a>Preview</h2><p><a href="https://ldwonday.github.io/zh-address-parse/" target="_blank" rel="noopener">Test page</a></p>
+<h2 id="Syntax"><a href="#Syntax" class="headerlink" title="Syntax"></a>Syntax</h2><blockquote>
+<p>AddressParse(address[, [option|0|1]])</p>
 </blockquote>
-<figure class="highlight javascript hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-keyword">import</span> AddressParse <span class="hljs-keyword">from</span> <span class="hljs-string">'./dist/zh-address-parse.min.js'</span></span><br><span class="line"><span class="hljs-comment">// options为可选参数，不传默认使用正则查找</span></span><br><span class="line"><span class="hljs-keyword">const</span> options = &#123;</span><br><span class="line">  type: <span class="hljs-number">0</span>, <span class="hljs-comment">// 哪种方式解析，0：正则，1：树查找</span></span><br><span class="line">  textFilter: [], <span class="hljs-comment">// 预清洗的字段</span></span><br><span class="line">  nameMaxLength: <span class="hljs-number">4</span>, <span class="hljs-comment">// 查找最大的中文名字长度</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="hljs-comment">// type参数0表示使用正则解析，1表示采用树查找, textFilter地址预清洗过滤字段。</span></span><br><span class="line"><span class="hljs-keyword">const</span> parseResult = AddressParse(<span class="hljs-string">'your address'</span>, options)</span><br><span class="line"><span class="hljs-comment">// The parseResult is an object contain &#123; province: '', name: '', city: '', area: '', detail: '', phone: '', postalCode: '' &#125;</span></span><br></pre></td></tr></table></figure>
         </div>
         
         
@@ -686,7 +685,7 @@
                 
                 </a>
                 <p class="is-size-7">
-                &copy; 2019 烟雨楼台&nbsp;
+                &copy; 2020 烟雨楼台&nbsp;
                 <!--Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & <a
                         href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus</a>-->
                 
